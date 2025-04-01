@@ -1,0 +1,78 @@
+* {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(37, 31, 31);
+    font-size: 1rem;
+    /* background-image: url(pokeball.png); */
+
+}
+
+.title {
+    text-align: center;
+    color: lightgray;
+    font-size: 4.5rem;
+    margin: 10px;
+}
+
+.pesquisas {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+}
+
+.link {
+    display: flex;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+#searchbtn {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: lightgray;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 9px;
+
+}
+
+#pokemonName {
+    color: lightgray;
+    border: none;
+    text-decoration: underline;
+    font-size: 1rem;
+
+}
+
+.pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    margin: 10px;
+
+}
+
+.pokemons li {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9px;
+    width: 25vw;
+    height: 40vh;
+    font-weight: bold;
+    color: lightgray;
+    align-items: center;
+    justify-content: center;
+
+}
